@@ -1,0 +1,13 @@
+# Ignore environment variables
+.env
+backend/.env
+frontend/.env
+
+# Ignore node_modules in both frontend and backend
+backend/node_modules/
+frontend/node_modules/
+
+# Optional: Ignore log files, system files, and editor folders
+*.log
+.DS_Store
+*.swp
